@@ -1,0 +1,81 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navigation bar */
+
+nav{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.nav-left{
+    width: 400px; /* width: 25% */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* main-content */
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid purple; /*DELETE---------------------------------*/
+    width: 1270px; /* width: 75% */
+    margin: 0 auto;
+    height: 800px;
+
+}
+
+/* main-content left side */
+
+.main-left{
+    border: 4px solid pink; /*DELETE---------------------------------*/
+    width: 600px;
+    height: 800px;
+}
+
+/* profile card */
+.profile{
+    margin-bottom: 40px;
+    border: 2px solid red; /*DELETE---------------------------------*/
+    height: 500px; /* adjust height ----------------------------------*/
+}
+
+
+/* education card */
+
+.education{
+    border: 2px solid red; /*DELETE---------------------------------*/
+    height: 200px;
+}
+
+/* main-content right side */
+
+.main-right{
+    border: 4px solid pink; /*DELETE---------------------------------*/
+    width: 300px;
+    height: 800px;
+}
+
+/* connection requests */
+.connection-requests{
+    margin-bottom: 40px;
+    border: 2px solid red; /*DELETE---------------------------------*/
+    height: 300px;
+}
+
+/* your connections */
+.your-connections{
+    border: 2px solid red; /*DELETE---------------------------------*/
+    height: 400px;
+}

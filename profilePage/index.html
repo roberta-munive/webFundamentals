@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Roboto:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<!--Used "Getting Started On Profile Page" video with Instructor Caden Wilcox to set up box structure-->
+
+<body>
+    <div class="wrapper">
+        <nav>
+            <div class="nav-left">
+                <h1>Profile</h1>
+                <a href="#">Home</a>
+                <a href="#">My Profile</a>
+                <a href="#">Find Connections</a>
+            </div>
+            <button id="sign-out">Sign Out</button>
+        </nav>
+        <main>
+            <div class="main-left">
+                <div class="profile">
+                    <div class="profile-top-border"></div>
+                    <div class="profile-content">
+                        <img id="jane-doe-icon" src="images/jane-m.jpg" alt="jane-doe-icon">
+                        <h1>Jane Doe</h1>
+                        <h3 id="profile-content-location">
+                            <img id="map-marker" src="icons/map-marker.png" alt="map-marker">
+                            Seattle
+                        </h3>
+                        <p>Developer | Engineer | Problem Solver <br> Master of shadows and the Internet!</p>
+                        <p id="profile-content-gear-line">
+                            <img id="gear" src="icons/gear.png" alt="gear">
+                            <a href="#">edit profile</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="education">
+                    <div class="education-top-border">Education</div>
+                    <div class="education-content">
+                        <h3>Coding Dojo - Full Stack Bootcamp</h3>
+                        <h4 id="education-date">Dec 2019 - Mar 2020</h4>
+                        <p>Triple black belt in Python, MERN, and C#</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main-right">
+                <div class="connection-requests">
+                    <div class="connection-top-border">
+                        <div class="connection-top-border-left">
+                            <div class="num-connection-requests-circle"></div>
+                            <p class="num-connection-requests">2</p>
+                        </div>
+                        <p>Connection Requests</p>
+                    </div>
+                    <div class="connection-content">
+                        <div class="connection-icons-line">
+                            <div class="connection-icons-line-left">
+                                <img class="connection-icons" id="todd-e-icon" src="images/todd-s.jpg"
+                                    alt="todd-e-icon">
+                                <h3 class="connection-names">Todd E</h3>
+                            </div>
+                            <div class="connection-icons-line-right">
+                                <img class="accept-close-icons" src="icons/accept-circle.png" alt="accept-icon">
+                                <img class="accept-close-icons" src="icons/close-circle.png" alt="close-icon">
+                            </div>
+                        </div>
+                        <div class="connection-icons-line">
+                            <div class="connection-icons-line-left">
+                                <img class="connection-icons" id="phil-k-icon" src="images/phil-s.jpg"
+                                    alt="phil-k-icon">
+                                <h3 class="connection-names">Phil K</h3>
+                            </div>
+                            <div class="connection-icons-line-right">
+                                <img class="accept-close-icons" src="icons/accept-circle.png" alt="accept-icon">
+                                <img class="accept-close-icons" src="icons/close-circle.png" alt="close-icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="your-connections">
+                    <div class="connection-top-border">
+                        <div class="connection-top-border-left">
+                            <div class="num-connections-circle"></div>
+                            <p class="num-connections">500+</p>
+                        </div>
+                        <p>Your Connections</p>
+                    </div>
+                    <div class="connection-content">
+                        <div class="connection-icons-line">
+                            <div class="connection-icons-line-left">
+                                <img class="connection-icons" id="adrien-d-icon" src="images/adrien-s.jpg"
+                                    alt="adrien-d-icon">
+                                <h3 class="connection-names">Adrien D</h3>
+                            </div>
+                        </div>
+                        <div class="connection-icons-line">
+                            <div class="connection-icons-line-left">
+                                <img class="connection-icons" id="anne-j-icon" src="images/anne-s.jpg"
+                                    alt="anne-j-icon">
+                                <h3 class="connection-names">Anne J</h3>
+                            </div>
+                        </div>
+                        <div class="connection-icons-line">
+                            <div class="connection-icons-line-left">
+                                <img class="connection-icons" id="alayne-t-icon" src="images/anne-s.jpg"
+                                    alt="alayne-t-icon">
+                                <h3 class="connection-names">Alayne T</h3>
+                            </div>
+                        </div>
+                        <div class="connection-icons-line">
+                            <div class="connection-icons-line-left">
+                                <img class="connection-icons" id="arry-y-icon" src="images/arry-s.jpg"
+                                    alt="arry-y-icon">
+                                <h3 class="connection-names">Arry Y</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="view-more">
+                    <a href="#">View More</a>
+                </div>
+
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

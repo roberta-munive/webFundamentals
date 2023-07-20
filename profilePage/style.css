@@ -1,0 +1,248 @@
+/* CSS Reset & Fonts */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper{
+    width: 1270px;
+    margin: 0 auto;
+
+}
+
+/* navigation bar */
+
+nav{
+    padding: 20px;
+    padding-right: 70px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.nav-left{
+    width: 650px; /* width: 25% */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-left a{
+    color: white;
+    text-decoration: none;
+}
+
+#sign-out{
+    background-color: #17A2B8;
+    color: white;
+    box-shadow: 3px 3px black;
+    border: 3px solid black;
+    height:30px;
+    width: 100px;
+    font-size: 18px;
+}
+
+/* main-content */
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1000px; /* width: 75% */
+    margin: 0 auto; /* centers element inside of its parent */
+    height: 800px;
+
+}
+
+/* main-content left side */
+
+.main-left{
+    width: 600px;
+    height: 800px;
+}
+
+/* profile card */
+.profile{
+    margin-bottom: 40px;
+    height: 425px; 
+    position: relative;
+    border: 2px solid #CCCCCC;
+}
+
+.profile-top-border{
+    background-color: #17A2B8;
+    height: 125px; /* height: 25%; */
+}
+
+#jane-doe-icon{
+    position: absolute;
+    top: 60px;
+    left: 40px;
+    height: 130px; 
+    border-radius: 50%;
+    border: 4px solid black;
+
+}
+
+.profile-content{
+    margin-top: 75px;
+    padding-left: 40px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#profile-content-location{
+    display: flex;
+    align-items: center;
+}
+#profile-content-gear-line{
+    display: flex;
+    align-items: center;
+}
+
+#map-marker{
+    height: 20px;
+    margin-right: 10px;
+}
+#gear{
+    height: 20px;
+    margin-right: 5px;
+}
+/* education card */
+
+.education{
+    border: 2px solid #CCCCCC;
+    height: 180px;
+}
+
+.education-top-border{
+    background-color: #333333;
+    color: white;
+    height: 40px;
+    padding: 10px;
+    padding-left: 40px;
+    
+}
+
+.education-content{
+    margin-top: 20px;
+    padding-left: 40px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#education-date{
+    color: #B6B6B6;
+}
+
+/* main-content right side */
+
+.main-right{
+    width: 300px;
+    height: 800px;
+}
+
+/* connection requests */
+.connection-requests{
+    margin-bottom: 40px;
+    border: 2px solid #CCCCCC;
+    height: 200px;
+}
+
+.connection-top-border{
+    background-color: #333333;
+    color: white;
+    height: 50px;
+    padding: 10px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+
+    
+}
+
+.connection-top-border-left{
+    display: flex;
+}
+
+.num-connection-requests{
+    color: #3E3E3E;
+    position: relative;
+    right: 18px;
+    top: 3px;
+    font-size: 18px;
+}
+
+.num-connection-requests-circle{
+    background-color: #CCCCCC;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.connection-icons-line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.connection-icons{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.connection-icons-line-left{
+    display: flex;
+    align-items: center;
+}
+
+/* your connections */
+.your-connections{
+    border: 2px solid #CCCCCC;
+    height: 350px;
+}
+
+.accept-close-icons{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.connection-names{
+    margin-left: 15px;
+}
+
+.num-connections-circle{
+    background-color: #CCCCCC;
+    width: 55px;
+    height: 30px;
+    border-radius: 50%;
+    
+}
+
+.num-connections{
+    color: #3E3E3E;
+    position: relative;
+    right: 47px;
+    top: 3px;
+    font-size: 18px;
+}
+
+/* view more */
+.view-more{
+    height: 50px;
+    border: 2px solid #CCCCCC;
+    padding: 15px;
+
+}
